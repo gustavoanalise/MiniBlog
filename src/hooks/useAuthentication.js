@@ -25,6 +25,7 @@ export const useAuthentication = () => {
         }
     }
 
+    // register
     const createUser = async (data) => {
         checkIfIsCancelled()
 
@@ -52,7 +53,7 @@ export const useAuthentication = () => {
             console.log(error.message)
             console.log(typeof error.message)
             
-            let systemErrorMessage 
+            let systemErrorMessage
 
             if (error.message.includes("Password")) {
                 systemErrorMessage = "A senha precisa conter ao menos 6 caracteres."
@@ -66,6 +67,15 @@ export const useAuthentication = () => {
             setError(systemErrorMessage)
         }
 
+    };
+
+    // logout
+    const logout = () => {
+
+        checkIfIsCancelled();
+
+        signOut(auth);
+
     }
 
     useEffect(() => {
@@ -77,6 +87,7 @@ export const useAuthentication = () => {
         createUser,
         error,
         loading,
+        logout
     }
     
 }

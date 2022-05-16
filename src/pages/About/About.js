@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const About = () => {
     return (
         <div className={styles.about}>
-            <h2>Sobre o Mini Blog usando o <span>ReactJs</span></h2>
+            <h1>Sobre o Mini Blog usando o <span>ReactJs</span></h1>
 
             <h1><FaReact /></h1>
 
