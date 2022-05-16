@@ -1,0 +1,12 @@
+.post {
+    text-align: center;
+}
+
+.post p {
+    color: #aaa;
+}
+
+.post textarea {
+    height: 150px;
+    resize: none;
+}

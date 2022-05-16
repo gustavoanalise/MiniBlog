@@ -9,6 +9,8 @@ import { AuthProvider } from './context/AuthContext';
 // Components
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+// Assets
+import LoadingGif from './assets/loading_img.gif'
 // Pages
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
@@ -35,7 +37,7 @@ function App() {
   }, [auth])
 
   if (loadingUser) {
-    return <p>Carregando...</p>
+    return <p><img src={LoadingGif} /></p>
   }
 
   return (

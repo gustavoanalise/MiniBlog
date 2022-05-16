@@ -2,3 +2,12 @@
   min-height: 60vh;
   margin-bottom: 5em;
 }
+
+img {
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 45%;
+  margin-top: 15%;
+}
