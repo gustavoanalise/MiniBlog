@@ -3,7 +3,7 @@
   margin-bottom: 5em;
 }
 
-img {
+.img {
   width: 90px;
   display: flex;
   flex-direction: column;

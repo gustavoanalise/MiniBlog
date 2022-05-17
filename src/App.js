@@ -37,7 +37,7 @@ function App() {
   }, [auth])
 
   if (loadingUser) {
-    return <p><img src={LoadingGif} /></p>
+    return <p><img className='img' src={LoadingGif} /></p>
   }
 
   return (
