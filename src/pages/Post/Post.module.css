@@ -16,14 +16,15 @@
     width: 80%;
 }
 
-/* .post_container .tags {
+.post_container .tags {
     display: flex;
     flex-direction: row;
     justify-content: center;
-} */
+}
 
 .tags p {
     margin-right: 1em;
+    text-align: center;
 }
 
 .tags span {
