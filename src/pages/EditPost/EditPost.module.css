@@ -1,0 +1,23 @@
+.post {
+    text-align: center;
+}
+
+.post p {
+    color: #aaa;
+}
+
+.post textarea {
+    height: 150px;
+    resize: none;
+}
+
+.post .preview_title {
+    margin-bottom: .2em;
+    color: #000;
+    font-weight: bold;
+}
+
+.image_preview {
+    max-width: 100%;
+    margin-bottom: 1em;
+}
